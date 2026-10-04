@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link, useLocation } from "react-router-dom";
 
 // Pages Import
 import Overview from './pages/Overview';
@@ -16,6 +16,7 @@ import Returns from './pages/Returns';
 import Logistics from './pages/Logistics';
 import Reports from './pages/Reports';
 import UsersAndRoles from './pages/UsersAndRoles';
+
 import RolesAndPermissions from './pages/RolesAndPermissions';
 import Settings from './pages/Settings';
 
