@@ -30,7 +30,7 @@ function Sidebar({ onOpenHelp, onOpenLogout }) {
     { name: 'Warehouses', path: '/warehouses' },
     { name: 'Orders', path: '/orders' },
     { name: 'Catalog', path: '/catalog' },
-    { name: 'Payments', path: '/payments' },
+    // { name: 'Payments', path: '/payments' },
     { name: 'Returns & Disputes', path: '/returns' },
     { name: 'Logistics', path: '/logistics' },
     { name: 'Reports', path: '/reports' },
@@ -113,8 +113,8 @@ export default function App() {
             <Route path="/catalog" element={<Catalog />} />
             <Route path="/catalog/:id" element={<ProductReview />} />
             <Route path="/product-review/:id" element={<ProductReview />} />
-            <Route path="/payments" element={<Payments />} />
-            <Route path="/payments/:id" element={<Payments />} />
+            {/* <Route path="/payments" element={<Payments />} />
+            <Route path="/payments/:id" element={<Payments />} /> */}
             <Route path="/returns" element={<Returns />} />
             <Route path="/logistics" element={<Logistics />} />
             <Route path="/reports" element={<Reports />} />
